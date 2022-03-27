@@ -10,7 +10,19 @@ html {
     color: rgb(211, 185, 162);
   }
 
-@media print { body { -webkit-print-color-adjust: exact; } }
+footer {
+    visibility: hidden;
+}
+
+@media print {
+    footer {
+        visibility: visible;
+    }
+
+    body { 
+        -webkit-print-color-adjust: exact; 
+    } 
+}
 
 body {
     line-height: 1.2rem;
@@ -20,6 +32,13 @@ body {
     letter-spacing: -0.2px;
 }
 
+div.icons img {
+    height: 2em;
+    width: 2em;
+
+    margin: 2px;
+}
+
 #container {
     display: flex;
     flex-wrap: nowrap;
@@ -27,7 +46,6 @@ body {
 }
 
 #left {
-    /* align-items: center; */
     margin-top: 3rem;
     border-radius: 2rem;
     background-color:rgb(44, 39, 39);
@@ -55,7 +73,7 @@ h5 {
     flex-direction: column;
 }
 
-img {
+#face {
     align-self: center;
     height: 14rem;
     width: 14rem;
