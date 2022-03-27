@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(31, 30, 30);
+    font-family: 'Questrial', sans-serif;
+    color: rgb(211, 185, 162);
+  }
+
+@media print { body { -webkit-print-color-adjust: exact; } }
+
+body {
+    line-height: 1.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-size: cover;
+    letter-spacing: -0.2px;
+}
+
+#container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+#left {
+    /* align-items: center; */
+    margin-top: 3rem;
+    border-radius: 2rem;
+    background-color:rgb(44, 39, 39);
+    padding: 1.2rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1rem;
+    width: 18rem;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h5 {
+    letter-spacing: -0.8px;
+    line-height: 1.5;
+}
+
+#right {
+    margin-top: 3rem;
+    padding-left: 1rem;
+    width: 30rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    align-self: center;
+    height: 14rem;
+    width: 14rem;
+
+    border-radius: 9rem;
+    border-width:2px;
+    border-style:solid;
+    border-color:rgb(58, 49, 49);
+
+    margin-top: 0.3rem;
+    margin-bottom: 1.2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+    color:rgb(189, 95, 153);
+    color: rgb(161, 76, 50);
+}
+
+h1 {
+    line-height: 1.2rem;
+    text-transform: capitalize;
+    margin: 2rem;
+}
+
+h6.yearInfo {
+    padding-bottom: 0.3rem;
+}
+
+p, li {
+    font-size: small;
+}
+
+p {
+    padding-bottom: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Questrial', sans-serif;
+    color: rgb(207, 159, 117);
+    /* color: rgb(202, 137, 137); */
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 2rem;
+}
+
+.block {
+    margin-bottom: 1rem;
+}
+
+hr { 
+    color: rgb(161, 76, 50);
+    border: dashed;
+    opacity: 0.9;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    padding-left: 1.5rem;
+    color: rgb(83, 63, 63);
+    font-size: x-small;
+}
+
+#work {
+    margin-top: 0.8rem;
+}
